@@ -1,6 +1,6 @@
 ### Hi, im ItzSelenux🦆🐧
 ## WebPage
- itzselenux.github.io is my folder webpage
+  <a href="https://itzselenux.github.io">itzselenux.github.io</a> is my folder webpage
 ## My projects
    you can look for
 - <a href="https://github.com/ItzSelenux/pixelitos-icon-theme">Pixelitos Icon Theme</a>
