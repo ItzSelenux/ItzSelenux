@@ -1,16 +1,16 @@
-### Hi there 👋
+### Hi, im ItzSelenux🦆🐧
+## My projects
+   you can look for
+- <a href="https://github.com/ItzSelenux/pixelitos-icon-theme">Pixelitos Icon Theme</a>
+- <a href="https://github.com/ItzSelenux/vscode-lm-theme">VSCode Linux Mint Theme</a>
+- <a href="https://github.com/ItzSelenux/rofi-mint-themes">Rofi Mint Themes</a>
+- <a href="https://github.com/ItzSelenux/selenux-wm-themes">IceWM/Fluxbox themes</a>
 
-<!--
-**ItzSelenux/ItzSelenux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Selenux's things:
+- 0x5F3759DF
+- Artix Runit btw
+- dont care about open or closed source software
+- Kof 2002 UM best fighting game
+- C++
+- i forget what i gonna put it
+- importaba el reloj
