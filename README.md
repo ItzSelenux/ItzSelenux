@@ -6,6 +6,7 @@
 - <a href="https://github.com/ItzSelenux/pixelitos-icon-theme">Pixelitos Icon Theme</a>
 - <a href="https://github.com/ItzSelenux/vscode-lm-theme">VSCode Linux Mint Theme</a>
 - <a href="https://github.com/ItzSelenux/rofi-mint-themes">Rofi Mint Themes</a>
+- - <a href="https://github.com/ItzSelenux/rofi-mintmenu-themes">Rofi MintMenu Themes</a>
 - <a href="https://github.com/ItzSelenux/selenux-wm-themes">IceWM/Fluxbox themes</a>
 
 ### Selenux's things:
