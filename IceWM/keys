@@ -1,0 +1,5 @@
+key "Super+E" nemo 
+key "Super+Space" rofi -show drun -font "comfortaa 13" -show-icons -location 7
+key "Ctrl+Alt+T" sakura
+key "Print" mate-screenshot -i
+key "Ctrl+Alt+X" xkill
