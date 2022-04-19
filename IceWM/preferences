@@ -848,7 +848,7 @@ TaskBarShowCPUStatus=0 # 0/1
  TaskBarShowShowDesktopButton=0 # [0-2]
 
 #  Show 'Start' menu on task bar.
-# TaskBarShowStartMenu=1 # 0/1
+TaskBarShowStartMenu=1 # 0/1
 
 #  Show transient (dialogs, ...) windows on task bar.
 # TaskBarShowTransientWindows=1 # 0/1

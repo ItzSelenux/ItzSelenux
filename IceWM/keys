@@ -4,18 +4,21 @@ key "Ctrl+Alt+T" sakura
 key "Print" mate-screenshot -i
 key "Ctrl+Alt+X" xkill
 
+key "XF86AudioRaiseVolume" pamixer -i 5
+key "XF86AudioLowerVolume" pamixer -d 5
+key "XF86AudioMute" pamixer -t
 #windowkey
 
 key "Super+Left" icesh -f sizeto 50% 100% left
 key "Super+Right" icesh -f sizeto 50% 100% right 
 
-key "Shift+Down" icesh -f sizeto 100% 50% bottom
-key "Shift+Up" icesh -f sizeto 100% 50% top
+#key "Shift+Down" icesh -f sizeto 100% 50% bottom
+#key "Shift+Up" icesh -f sizeto 100% 50% top
 
-key "Shift+Right" icesh -f sizeto 50% 50% top right
-key "Ctrl+Shift+Left" icesh -f sizeto 50% 50% bottom left
-key "Shift+Left" icesh -f sizeto 50% 50% top left
-key "Ctrl+Shift+Right" icesh -f sizeto 50% 50% bottom right
+#key "Shift+Right" icesh -f sizeto 50% 50% top right
+#key "Ctrl+Shift+Left" icesh -f sizeto 50% 50% bottom left
+#key "Shift+Left" icesh -f sizeto 50% 50% top left
+#key "Ctrl+Shift+Right" icesh -f sizeto 50% 50% bottom right
 
 key "Super+Down" icesh -f restore
 key "Super+Up" icesh -f maximize

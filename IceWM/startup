@@ -4,9 +4,7 @@ xerrorsolution &
 
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
-pulseaudio &
-
-volumeicon &
+pipewire &
 
 tint2 &
 
