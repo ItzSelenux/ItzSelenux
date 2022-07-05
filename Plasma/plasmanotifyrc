@@ -1,0 +1,14 @@
+[Applications][heroic]
+Seen=true
+
+[Applications][kotatogramdesktop]
+Seen=true
+
+[Applications][vivaldi-stable]
+Seen=true
+
+[Badges]
+InTaskManager=false
+
+[Notifications]
+PopupPosition=BottomRight

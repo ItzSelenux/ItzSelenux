@@ -1,0 +1,64 @@
+# GIMP gimprc
+# 
+# This is your personal gimprc file.  Any variable defined in this file takes
+# precedence over the value defined in the system-wide gimprc:
+# /etc/gimp/2.0/gimprc
+# Most values can be set within GIMP by changing some options in the
+# Preferences dialog.
+
+(interpolation-type none)
+(default-image
+    (width 1920)
+    (height 1080)
+    (unit pixels)
+    (xresolution 300)
+    (yresolution 300)
+    (resolution-unit inches)
+    (image-type rgb)
+    (precision u8-gamma)
+    (color-managed yes)
+    (color-profile NULL)
+    (fill-type transparent)
+    (comment ""))
+(default-grid
+    (style solid)
+    (fgcolor (color-rgba 0 0 0 1))
+    (bgcolor (color-rgba 1 1 1 1))
+    (xspacing 1)
+    (yspacing 1)
+    (spacing-unit inches)
+    (xoffset 0)
+    (yoffset 0)
+    (offset-unit inches))
+(import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
+(monitor-xresolution 90)
+(monitor-yresolution 90)
+(toolbox-color-area no)
+(toolbox-wilber no)
+(toolbox-groups no)
+(theme "System")
+(icon-theme "Legacy")
+(image-resize-resize-text-layers yes)
+(selection-border-radius 1)
+(fill-options
+    (style solid)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10))
+(stroke-options
+    (style solid)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10)
+    (method line)
+    (width 2)
+    (unit pixels)
+    (cap-style butt)
+    (join-style round)
+    (miter-limit 10)
+    (dash-offset 0)
+    (dash-info 0)
+    (emulate-brush-dynamics no))
+
+
+# end of gimprc

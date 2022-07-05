@@ -1,0 +1,32 @@
+[FileDialogSize]
+VGA-1 Height 1440x900=871
+VGA-1 Width 1440x900=1440
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/.icewm/themes/IceMint Green/wallpaper2.png,file:$HOME/.config/slnxwm/bg/wallpaper.png,file:$HOME/.icewm/themes/IceMint Green/wallpaper.png
+Recent URLs[$e]=file:$HOME/.config/slnxwm/bg/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+VGA-1 Height 1440x900=439
+VGA-1 Width 1440x900=555
+
+[PlasmaViews][Panel 2]
+alignment=2
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=32
+
+[PlasmaViews][Panel 2][Horizontal1024]
+thickness=44
+
+[PlasmaViews][Panel 2][Horizontal1440]
+thickness=32
+
+[PlasmaViews][Panel 2][Vertical900]
+thickness=32
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
