@@ -6,6 +6,7 @@ set prompt = '%{\033[90m%}ItsZariep%{\033[0;32m%}@%{\033[00m%}PC%{\033[0;32m%}%~
 
 #random sets
 ################
+set path = ($path .)
 set ampm
 set autoexpand
 set autolist
@@ -13,14 +14,15 @@ set autolist
 set autorehash
 set color
 set colorcat
+setenv LS_COLORS "di=7;37:fi=00:*.jpg=93:*.png=93:*.webp=93:*.mp3=35:*.m4a=35:*.ogg=35:"
 set correct all
 set ellipsis
 set highlight
 set highlight
 set histdup all
-set histfile="~/.tcsh_history"
+set savehist = 666
+set histfile = ~/.tcsh_history
 set histlit
-set history=666
 unset autologout
 unset noglob
 if (! $?prompt ) exit
@@ -30,21 +32,29 @@ if (! $?prompt ) exit
 alias ls 'ls -sh --color'
 alias rm 'rm -rf'
 alias cp 'cp -r'
-alias mv 'mv -r'
+alias mv 'mv'
 
 #pkg alias
 ################
-alias pi  'doas pacman -Syu'
-alias pfr 'doas pacman -Rcns'
-alias pr  'doas pacman -Rns'
-alias pqn 'paru -Si'
-alias pq  'pacman -Ss'
-alias pc  'pacman -Scc'
-alias pqi 'pacman -Qi'
+alias pi  'doas pacman -Syu' ##  Package Install
+alias pfr 'doas pacman -Rcns' ## Package Full Remove
+alias pr  'doas pacman -Rns' ##  Package Remove
+alias pc  'doas pacman -Scc' ## Package Clean
+
+alias pqi 'pacman -Qs'  ## package query instaled
+alias pq  'pacman -Ss'  ## Package Query
+
+alias pa 'pacman -Qi'  ## Package About
+alias pan 'pacman -Si'  ## Package About NotInstalled
+
+alias pf 'pacman -Ql' ## Package Files
+alias plr 'pacman -Sl' ## Pakage List Repository
 
 #Git alias
 ################
-alias gp 'git pull'
+alias gu 'git add --all ;; git commit ;; git push'
+alias gh 'git pull'
+alias gp 'git push'
 alias gs 'git status'
 alias gg 'git log --graph --pretty=format:'\''%C(bold)%h%Creset%C(magenta)%d%Creset %s %C(green)<%an> %C(#666666)(%cr)%Creset'\'' --abbrev-commit --date=relative'
 alias gc 'git clone --depth 1'
