@@ -15,10 +15,10 @@ alias precmd 'set prompt="`powerline-shell --shell tcsh $?`"'
 
 #random sets
 ################
+set correct=all
 set path = ($path .)
 set ampm
 set autoexpand
-set autolist
 set autolist
 set autorehash
 set color
@@ -34,6 +34,13 @@ set histlit
 unset autologout
 unset noglob
 if (! $?prompt ) exit
+if ( $?tcsh ) then
+	bindkey "\e[3~" delete-char
+endif
+if ($?loginsh) then
+	set correct=all
+	set autocorrect
+endif
 
 # FileManaging Alias
 ################
