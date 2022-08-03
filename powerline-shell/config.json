@@ -1,0 +1,21 @@
+
+{
+  "segments": [
+    "virtual_env",
+    {                                                                                                                                       
+     "type": "stdout",                                                                                                                     
+     "command": ["echo", "ItsZariep"],
+     "fg_color": 247,
+     "bg_color": 237
+
+    }, 
+    "hostname",
+    "ssh",
+    "cwd",
+    "git",
+    "hg",
+    "jobs",
+    "root"
+  ],
+  "theme": "~/.config/powerline-shell/theme.py"
+}
