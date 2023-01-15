@@ -1,4 +1,9 @@
 #!/bin/bash
+if [ -z "${2}" ]; then
+printf "${c0}ERROR:${NC} Please provide number of steps\n"
+exit
+fi
+vol=${2}
 
 vn()
 {
@@ -16,12 +21,13 @@ fi
 
 i()
 {
-pamixer -i 6 && vn
+pamixer -i $vol && vn
 }
 
 d()
 {
-pamixer -d 6  && vn
+
+pamixer -d $vol && vn
 }
 
 m()
