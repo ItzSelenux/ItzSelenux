@@ -1,0 +1,43 @@
+#!/bin/bash
+
+vn()
+{
+notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)%" 
+}
+
+vmn()
+{
+if [[ $(pamixer --get-mute) == "true" ]]; then
+  notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)% (Muted)" 
+else
+  vn
+fi 
+}
+
+i()
+{
+pamixer -i 6 && vn
+}
+
+d()
+{
+pamixer -d 6  && vn
+}
+
+m()
+{
+pamixer -t && vmn
+}
+
+while getopts ":idm" option; do
+   case $option in
+      i) 
+         i
+         exit;; 
+      d) 
+         d
+         exit;;
+      m) 
+         m
+         exit;;
+esac done

@@ -4,12 +4,10 @@ xerrorsolution &
 
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 
-pipewire &
+volumeicon &
+
+picom &
 
 tint2 &
-
-devmon &
-
-selekey &
 
 xrandr --output VGA-1 --mode 1440x900 --rate 75

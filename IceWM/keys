@@ -1,24 +1,29 @@
 key "Super+E" nemo 
-key "Super+Space" rofi -show drun -font "comfortaa 13" -show-icons -location 7
-key "Ctrl+Alt+T" sakura
-key "Print" mate-screenshot -i
+key "Super+Space" rofi -show drun -location 7
+key "Super+T" sakura
+key "Print" flameshot gui
 key "Ctrl+Alt+X" xkill
+key "Super+X" xed
 
-key "XF86AudioRaiseVolume" pamixer -i 5
-key "XF86AudioLowerVolume" pamixer -d 5
-key "XF86AudioMute" pamixer -t
-#windowkey
+key "Super+KP_Home" voltify -d
 
-key "Super+Left" icesh -f sizeto 50% 100% left
-key "Super+Right" icesh -f sizeto 50% 100% right 
+key "Super+KP_Up" voltify -m 
+key "Super+KP_Prior" voltify -i
+key "Super+KP_Begin" playerctl play-pause
+key "Super+KP_Left" playerctl previous
+key "Super+KP_Right" playerctl next
 
-#key "Shift+Down" icesh -f sizeto 100% 50% bottom
-#key "Shift+Up" icesh -f sizeto 100% 50% top
 
-#key "Shift+Right" icesh -f sizeto 50% 50% top right
-#key "Ctrl+Shift+Left" icesh -f sizeto 50% 50% bottom left
-#key "Shift+Left" icesh -f sizeto 50% 50% top left
-#key "Ctrl+Shift+Right" icesh -f sizeto 50% 50% bottom right
+#
+#KP_Prior > 9 
+#KP_Up    > 8 
+#KP_Home  > 7 
+#KP_Right > 6 
+#KP_Begin > 5
+#KP_Left  > 4
+#KP_Next  > 3 
+#KP_Down  > 2 
+#KP_End   > 1 
+ 
 
-key "Super+Down" icesh -f restore
-key "Super+Up" icesh -f maximize
+
