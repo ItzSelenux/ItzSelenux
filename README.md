@@ -1,5 +1,5 @@
 ### Hi, im ItzSelenux🦆🐧
-<a href="youtube.com/ItzSelenux">
+<a href="https://youtube.com/ItzSelenux">
     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
   </a>
 
