@@ -1,4 +1,9 @@
 ### Hi, im ItzSelenux🦆🐧
+<a href="youtube.com/ItzSelenux">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+
+  
 ## WebFolders
   - <a href="https://itzselenux.github.io">itzselenux.github.io</a> is my folder webpage
   - <a href="https://sgde.github.io">sgde.github.io</a> other folder with SGDE information
@@ -25,6 +30,5 @@
 ![ItzSelenux Ranking](https://github-readme-stats.vercel.app/api?username=ItzSelenux&show_icons=true&bg_color=2a2a2a&text_color=d6d6d6&title_color=91a666&icon_color=d6d6d6)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ItzSelenux&show_icons=true&bg_color=2a2a2a&text_color=d6d6d6&title_color=91a666&icon_color=d6d6d6&langs_count=10&layout=compact)
 
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C1MBGAV)
+    
+   [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C1MBGAV)
