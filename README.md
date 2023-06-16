@@ -1,7 +1,7 @@
 ### Hi, im ItzSelenux🦆🐧
 ## WebFolders
   - <a href="https://itzselenux.github.io">itzselenux.github.io</a> is my folder webpage
-  - <a href="https://sgde.github.io">itzselenux.github.io</a> other folder with SGDE information
+  - <a href="https://sgde.github.io">sgde.github.io</a> other folder with SGDE information
 
 <h3 align="left">Languages:</h3>
 <p align="center" width="100%">
