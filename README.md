@@ -22,7 +22,6 @@
 <p align="center" width="100%">
   <img width=32px src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
   <img width=32px style="margin-top: 604px" src="https://www.geany.org/static/img/geany.svg" >
-  <img width=32px src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
   <img width=32px src="https://raw.githubusercontent.com/alrra/browser-logos/main/src/vivaldi/vivaldi.svg">
   <img width=32px src="https://upload.wikimedia.org/wikipedia/commons/7/71/GTK_logo.svg">
 </p>
