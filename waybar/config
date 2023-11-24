@@ -1,0 +1,73 @@
+{
+	"layer": "top",
+	"position": "left",
+	"height": 800,
+	"width": 16,
+	"spacing": 0,
+	"modules-left": ["clock", "tray"],
+	"modules-right": ["hyprland/workspaces"],
+	"hyprland/workspaces": {
+		"disable-scroll": true,
+		"all-outputs": true,
+		"warp-on-scroll": false,
+		"format": "<sub>{icon}</sub>\n{windows}",
+		"format-window-separator": "\n",
+		"format-icons": {
+			"1": "¹",
+			"2": "²",
+			"3": "³",
+			"4": "⁴",
+			"5": "⁵",
+			"6": "⁶",
+			"urgent": "",
+			"focused": "",
+			"default": ""
+		},
+		"window-rewrite": {
+			"st": "",
+			"vivaldi-stable": "󰖟",
+			"xed": "",
+			"nemo": "",
+			"kdenlive": "",
+			"nsxiv":"",
+			"pavucontrol":"󰕾",
+			"mpv":"",
+			"obs":"",
+			"sglauncher":"󰍜",
+			"geany":"󰼙",
+			"audacity":"󰋋",
+			"mpv":"",
+			"gimp":"",
+			"lutris":"󰖺",
+			"steam":"󰓓",
+			"Quake3-UrT":"󰜃",
+			"Minecraft":"󰍳",
+			"Skullgirls.x86_64-pc-linux-gnu":"󰚌",
+			"steam_app_222940":"XIII",
+			"steam_app_222440":"'02",
+			"steam_app_376300":"Xrd",
+			"steam_app_348550":"Λ",
+			"steam_app_320":"λ²",
+			"steam_app_70":"λ",
+		}
+	},
+	"tray": {
+		"spacing": 10
+	},
+	"clock": {
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%m-%d}",
+		"format": "{:%I\n%M}"
+	},
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 16,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "minimize",
+"on-click-right": "close",
+		"ignore-list": [
+		   "Alacritty"
+		],
+	},
+}

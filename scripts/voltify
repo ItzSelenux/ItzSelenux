@@ -1,22 +1,24 @@
 #!/bin/bash
-if [ -z "${2}" ]; then
-printf "${c0}ERROR:${NC} Please provide number of steps\n"
-exit
+if [ "$1" = "-m" ]; then
+  :
+elif [ -z "${2}" ]; then
+  printf "${c0}ERROR:${NC} Please provide number of steps\n"
+  exit
 fi
 vol=${2}
 
 vn()
 {
-notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)%" 
+notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)%"
 }
 
 vmn()
 {
 if [[ $(pamixer --get-mute) == "true" ]]; then
-  notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)% (Muted)" 
+  notify-send -r 666 -i . -h int:value:$(pamixer --get-volume) "Volume: $(pamixer --get-volume)% (Muted)"
 else
   vn
-fi 
+fi
 }
 
 i()
@@ -37,13 +39,13 @@ pamixer -t && vmn
 
 while getopts ":idm" option; do
    case $option in
-      i) 
+      i)
          i
-         exit;; 
-      d) 
+         exit;;
+      d)
          d
          exit;;
-      m) 
+      m)
          m
          exit;;
 esac done

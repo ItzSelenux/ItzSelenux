@@ -1,26 +1,14 @@
-#Prompt
-################
-
-
-
-# Old Prompt
-set prompt='%{\033[90m%}ItsZariep%{\033[0;38;2;145;166;102m%}@%{\033[00m%}PC%{\033[0;38;2;145;166;102m%}%~%{\033[00m%}-%{\033[0;38;2;145;166;102m%}>%{\033[00m%} '
-
-
-#random sets
-################
+set prompt='%{\033[02m%}ItsZariep%{\033[0;38;2;145;166;102m%}@%{\033[00m%}PC%{\033[0;38;2;145;166;102m%}%~%{\033[00m%}-%{\033[0;38;2;145;166;102m%}>%{\033[00m%} '
 
 set correct=all
 set path = ($path .)
 alias precmd 'rehash'
-alias postcmd "history -S; history -M"
 set ampm
 set autoexpand
 set autolist
 set autorehash
 set color
 set colorcat
-setenv LS_COLORS "di=7;37:fi=00:*.jpg=93:*.png=93:*.webp=93:*.mp3=35:*.m4a=35:*.ogg=35:"
 set correct all
 set ellipsis
 set highlight
@@ -29,6 +17,8 @@ set history = 666
 set savehist = (666 merge)
 set histfile = ~/.tcsh_history
 set histlit
+set correct=all
+set autocorrect
 set HISTIGNORE=ls:cd:exit
 unset autologout
 unset noglob
@@ -37,29 +27,18 @@ if ( $?tcsh ) then
 	bindkey "\e[3~" delete-char
 endif
 
-	set correct=all
-	set autocorrect
-
-# FileManaging Alias
-################
-alias cat 'bat'
-alias ls 'ls -sh --color'
-alias rm 'rm -r'
-alias cp 'cp -r'
-
-#pkg alias
-################
 alias pi  'doas pacman -Syu' ##  Package Install
 alias pfr 'doas pacman -Rcns' ## Package Full Remove
 alias pr  'doas pacman -Rns' ##  Package Remove
 alias pc  'doas pacman -Scc' ## Package Clean
 
-alias pqi 'pacman -Qs'  ## package query instaled
+alias pqi 'pacman -Qs'  ## Package Query instaled
 alias pq  'pacman -Ss'  ## Package Query
 
 alias pa 'pacman -Qi'  ## Package About
 alias pan 'pacman -Si'  ## Package About NotInstalled
 
+alias pfp 'pacman -F' ## Package File Provide
 alias pf 'pacman -Fl' ## Package Files
 alias plr 'pacman -Sl' ## Pakage List Repository
 
@@ -72,8 +51,4 @@ alias gs 'git status'
 alias gg 'git log --graph --pretty=format:'\''%C(bold)%h%Creset%C(magenta)%d%Creset %s %C(green)<%an> %C(#666666)(%cr)%Creset'\'' --abbrev-commit --date=relative'
 alias gc 'git clone --depth 1'
 
-#other alias
-################
-alias sxrc   'pico .config/sx/sxrc'
-
-alias easyeffects 'env GTK_THEME=selenium-breeze easyeffects'
+source /home/itszariep/.tcsh_busybox
