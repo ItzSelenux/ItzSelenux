@@ -1,0 +1,2 @@
+#!/bin/sh
+cat /usr/share/vivaldi/common.css >> /opt/vivaldi/resources/vivaldi/style/common.css
