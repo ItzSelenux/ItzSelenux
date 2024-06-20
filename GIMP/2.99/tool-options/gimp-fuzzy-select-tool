@@ -1,5 +1,6 @@
 # GIMP gimp-fuzzy-select-tool options
 
-(threshold 45.100000000000001)
+(select-transparent no)
+(threshold 26.600000000000001)
 
 # end of gimp-fuzzy-select-tool options

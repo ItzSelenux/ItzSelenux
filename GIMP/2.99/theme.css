@@ -5,12 +5,11 @@
  * gimp.css file instead (/home/itszariep/.config/GIMP/2.99/gimp.css).
  */
 
-@import url("file:///usr/share/gimp/2.99/themes/System/gimp.css");
-@import url("file:///etc/gimp/2.99/gimp.css");
+@import url("file:///usr/share/gimp/3.0/themes/System/gimp.css");
+@import url("file:///etc/gimp/3.0/gimp.css");
 
-* { -gtk-icon-style: symbolic; }
+* { -gtk-icon-style: regular; }
 
-/* prefer-dark-theme */
 
 
 /* end of theme.css */

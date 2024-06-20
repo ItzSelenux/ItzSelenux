@@ -1,6 +1,5 @@
 # GIMP gimp-rect-select-tool options
 
-(round-corners yes)
-(corner-radius 4)
+(corner-radius 32.600000000000001)
 
 # end of gimp-rect-select-tool options

@@ -2,13 +2,13 @@
 # 
 # This is your personal gimprc file.  Any variable defined in this file takes
 # precedence over the value defined in the system-wide gimprc:
-# /etc/gimp/2.99/gimprc
+# /etc/gimp/3.0/gimprc
 # Most values can be set within GIMP by changing some options in the
 # Preferences dialog.
 
 (num-processors 1)
 (prev-language "American English")
-(config-version "2.99.17")
+(config-version "2.99.19")
 (default-image
     (width 1920)
     (height 1080)
@@ -24,14 +24,30 @@
     (simulation-intent relative-colorimetric)
     (fill-type transparent)
     (comment "Created with GIMP"))
+(color-management
+    (mode display)
+    (display-profile-from-gdk no)
+    (display-rendering-intent relative-colorimetric)
+    (display-use-black-point-compensation yes)
+    (display-optimize yes)
+    (simulation-rendering-intent perceptual)
+    (simulation-use-black-point-compensation no)
+    (simulation-optimize yes)
+    (simulation-gamut-check no)
+    (out-of-gamut-color
+        (color "RGBA float" 16 "\0\0\200\77\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+    (show-rgb-u8 no)
+    (show-hsv yes))
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(check-update-timestamp 1699053590)
-(monitor-xresolution 79)
-(monitor-yresolution 78)
+(debug-policy never)
+(check-update-timestamp 1717805145)
+(monitor-xresolution 89)
+(monitor-yresolution 88)
 (toolbox-color-area no)
 (toolbox-wilber no)
 (theme "System")
 (icon-theme "Legacy")
+(show-welcome-dialog no)
 (layer-new-name "Curved Text")
 (fill-options
     (style fg-color)
@@ -46,10 +62,10 @@
     (feather no)
     (feather-radius 10)
     (method line)
-    (width 14)
+    (width 11)
     (unit pixels)
     (cap-style round)
-    (join-style miter)
+    (join-style round)
     (miter-limit 10)
     (dash-offset 0)
     (dash-info 0)

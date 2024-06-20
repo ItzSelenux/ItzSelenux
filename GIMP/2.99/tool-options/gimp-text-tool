@@ -1,10 +1,14 @@
 # GIMP gimp-text-tool options
 
-(foreground (color-rgb 0.16470588743686676 0.16470588743686676 0.16470588743686676))
+(foreground
+    (color "R'G'B'A u8" 4 "\367\271\271\377" 0))
 (palette "Web")
-(font "")
+(font "Standard Symbols PS")
+(font-size 45)
 (justify center)
-(line-spacing -2)
-(letter-spacing -1)
+(indent 1)
+(line-spacing -4)
+(letter-spacing -3)
+(outline-width 4)
 
 # end of gimp-text-tool options

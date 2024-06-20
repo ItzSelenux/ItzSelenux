@@ -1,0 +1,11 @@
+# settings
+
+(width 999)
+(height 999)
+(keep-ratio yes)
+(prefer-native-dimensions yes)
+(paths "no-import")
+(pixel-density 300)
+(physical-unit 1)
+
+# end of settings

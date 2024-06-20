@@ -1,5 +1,6 @@
 # GIMP gimp-by-color-select-tool options
 
-(threshold 36.100000000000001)
+(threshold 92.400000000000006)
+(select-criterion rgb-green)
 
 # end of gimp-by-color-select-tool options

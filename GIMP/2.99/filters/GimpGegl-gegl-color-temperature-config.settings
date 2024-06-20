@@ -1,0 +1,44 @@
+# settings
+
+(GimpGegl-gegl-color-temperature-config "2024-06-01 19:17:29"
+    (time 1717291049)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 18:06:26"
+    (time 1717286786)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:56:50"
+    (time 1717286210)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:50:04"
+    (time 1717285804)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:48:25"
+    (time 1717285705)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:14:48"
+    (time 1717283688)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:13:21"
+    (time 1717283601)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 17:04:00"
+    (time 1717283040)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 16:58:38"
+    (time 1717282718)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+(GimpGegl-gegl-color-temperature-config "2024-06-01 16:51:31"
+    (time 1717282291)
+    (original-temperature 1000)
+    (intended-temperature 6500))
+
+# end of settings
