@@ -149,7 +149,7 @@ ClickToFocus=0 # 0/1
 # DontRotateMenuPointer=1 # 0/1
 
 #  Use double buffering when redrawing the display.
-# DoubleBuffer=1 # 0/1
+ DoubleBuffer=0 # 0/1
 
 #  Resistance in pixels when trying to move windows off the screen (10000 = infinite)
 # EdgeResistance=32 # [0-10000]
@@ -209,7 +209,7 @@ ClickToFocus=0 # 0/1
 # IconPath="/usr/local/share/icons:/usr/local/share/pixmaps:/usr/share/icons:/usr/share/pixmaps:"
 
 #  Colon separated icon theme list with wildcard support. Minus prefix - can be used to exclude themes.
- IconThemes="breeze-dark:hicolor"
+ IconThemes="breeze-dark:ilustraciones:hicolor"
 
 #  Opens the address bar in the task bar where a command can be typed.
  KeySysAddressBar="Super+D"
@@ -227,7 +227,7 @@ ClickToFocus=0 # 0/1
 # KeySysCollapseTaskBar="Alt+Ctrl+h"
 
 #  Opens the IceWM system dialog in the center of the screen.
- KeySysDialog="" #puta
+ KeySysDialog="Ctrl+Super+Alt+Del"
 
 #  Hides all windows.
 # KeySysHideAll="Alt+Shift+F11"
@@ -358,7 +358,7 @@ ClickToFocus=0 # 0/1
 # KeySysWorkspaceNextTakeWin="Alt+Ctrl+Shift+Right"
 
 #  Goes one workspace to the left.
- KeySysWorkspacePrev=""
+KeySysWorkspacePrev="Super+Ctrl+Left"
 
 #  Takes the active window one workspace to the left.
 # KeySysWorkspacePrevTakeWin=""
@@ -568,7 +568,7 @@ MouseWinSize="Super+Pointer_Button3"
 # NewMailCommand=""
 
 #  Opaque window move.
-# OpaqueMove=1 # 0/1
+OpaqueMove=1 # 0/1
 
 #  Opaque window resize.
 OpaqueResize=1
@@ -589,7 +589,7 @@ PagerShowLabels=0 # 0/1
 # PagerShowNumbers=0 # 0/1
 
 #  Show a mini desktop preview on each workspace button.
-# PagerShowPreview=1 # 0/1
+ PagerShowPreview=1 # 0/1
 
 #  Draw window icons inside large enough preview windows on pager (if PagerShowPreview=1)
 # PagerShowWindowIcons=1 # 0/1
@@ -685,7 +685,7 @@ QuickSwitchVertical=0 # 0/1
 # ScrollBarStartDelay=500 # [0-5000]
 
 #  Don't cut client windows by shapes set trough frame corner pixmap.
-# ShapesProtectClientWindow=1 # 0/1
+# ShapesProtectClientWindow=0 # 0/1
 
 #  Show the about menu item in the program menu.
 # ShowAbout=1 # 0/1
@@ -724,7 +724,7 @@ ShowMoveSizeStatus=0
 # ShowSettingsMenu=1 # 0/1
 
 #  Show task bar.
-ShowTaskBar=0 # 0/1
+ShowTaskBar=1 # 0/1
 
 #  Show themes submenu in the program menu.
 # ShowThemesMenu=1 # 0/1
@@ -814,10 +814,10 @@ TaskBarJustify="right"
 # TaskBarNetSamples=20 # [2-1000]
 
 #  Enable TaskBarShowAPMStatus if a battery is present.
-TaskBarShowAPMAuto=0 # 0/1
+TaskBarShowAPMAuto=1 # 0/1
 
 #  Show battery status in graph mode.
-TaskBarShowAPMGraph=0 # 0/1
+TaskBarShowAPMGraph=1 # 0/1
 
 #  Show battery status monitor on task bar.
 # TaskBarShowAPMStatus=0 # 0/1
@@ -856,7 +856,7 @@ TaskBarShowStartMenu=1 # 0/1
 TaskBarShowTransientWindows=0 # 0/1
 
 #  Show application icons in the tray panel.
-TaskBarShowTray=0 # 0/1
+TaskBarShowTray=1 # 0/1
 
 #  Show icons of windows on the task bar.
 TaskBarShowWindowIcons=1 # 0/1
@@ -889,16 +889,16 @@ TaskBarWidthPercentage=100 # [0-100]
 # TaskBarWorkspacesTop=0 # 0/1
 
 #  default number of tasks in taskbar.
- TaskbarButtonWidthDivisor=50
+# TaskbarButtonWidthDivisor=50
 
 #  Terminal emulator must accept -e option.
-# TerminalCommand="xterm -hold"
+ TerminalCommand="st"
 
 #  Clock Time format (strftime format string)
- TimeFormat="%H:%M %p"
+ TimeFormat="%I:%M %p"
 
 #  Alternate Clock Time format for blinking effects.
- TimeFormatAlt="%H:%M %p"
+ TimeFormatAlt="%I:%M %p"
 
 #  TitleBar mouse-button double click to maximize the window.
 # TitleBarMaximizeButton=1 # [0-5]
@@ -1447,22 +1447,22 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 #
 
 #  Seconds between cycling over all background images, default zero is off.
-# CycleBackgroundsPeriod=0 # [0-2147483647]
+ CycleBackgroundsPeriod=1 # [0-2147483647]
 
 #  Display desktop background centered and not tiled.
 DesktopBackgroundCenter=0 # 0/1
 
 #  Desktop background color(s)
-DesktopBackgroundColor = ""
+DesktopBackgroundColor = "#2a2a2a"
 
 #  Desktop background image(s)
-DesktopBackgroundImage = ""
+#DesktopBackgroundImage = "/home/itszariep/maxresdefault.webp", "/home/itszariep/Pictures/wallpaperxd2.png",  "/home/itszariep/Pictures/a.jpeg",
 
 #  Paint the background image over all multihead monitors combined.
 # DesktopBackgroundMultihead=0 # 0/1
 
 #  Resize desktop background to full screen.
-# DesktopBackgroundScaled=0 # 0/1
+ DesktopBackgroundScaled=1 # 0/1
 
 #  Color(s) to announce for semitransparent windows.
 # DesktopTransparencyColor=""
@@ -1493,4 +1493,7 @@ KeyWinTileBottom="Super+Down"
 MouseWinTabbing="Ctrl+Alt+Pointer_Button2"
 
 #  Show titles of windows on task buttons of the task bar.
-TaskBarShowWindowTitles=1 # 0/1
+TaskBarShowWindowTitles=0 # 0/1
+
+#  Goes one workspace to the right.
+KeySysWorkspaceNext="Super+Ctrl+Right"

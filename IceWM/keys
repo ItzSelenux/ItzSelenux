@@ -1,6 +1,6 @@
 key "Super+E" nemo
-key "Super+T" st -T st -e tmux -u
-key "Print" flameshot gui
+key "Super+T" stwrapper
+key "Print" gnome-screenshot -i
 key "XF86Explorer" simplescreenrecorder
 key "Ctrl+Alt+X" xkill
 key "Super+X" xed
@@ -8,12 +8,12 @@ key "Super+Space" sglauncher
 key "Ctrl+Alt+Del" sglogout
 key "XF86AudioLowerVolume" voltify -d 6
 
-key "XF86AudioMute" voltify -i  6
-key "XF86AudioRaiseVolume" voltify -m 6
+key "XF86AudioMute" voltify -m  6
+key "XF86AudioRaiseVolume" voltify -i 6
 
-key "Super+Ctrl+Right" icesh -f sizeto 23% 100% top right
-key "Super+Ctrl+Left" icesh -f sizeto 77% 86% top left
-key "Alt+Ctrl+Up" icesh -f sizeto 33% 90% top left
+#key "Super+Ctrl+Right" icesh -f sizeto 23% 100% top right
+#key "Super+Ctrl+Left" icesh -f sizeto 77% 86% top left
+#key "Alt+Ctrl+Up" icesh -f sizeto 33% 90% top left
 #key "End" xdotool click 1
 #
 #KP_Prior > 9

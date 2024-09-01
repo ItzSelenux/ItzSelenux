@@ -8,10 +8,13 @@ wireplumber &
 sleep 1 &&
 pipewire-pulse &
 
-env GALLIUM_HUD=help picom --legacy-backend &
+#env GALLIUM_HUD=help picom --legacy-backend &
 
-tint2 &
-xmodmap .Xmodmap &
+#tint2 &
+#xmodmap .Xmodmap &
 xrdb .Xresources &
 
-xrandr --output DVI-I-0 --mode 1440x900 --rate 75
+#xrandr --output DVI-I-0 --mode 1440x900 --rate 75
+#xrandr --output LVDS-1 --set "scaling mode" "Full"
+
+#xinput set-prop 10 314 0
