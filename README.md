@@ -1,3 +1,5 @@
+<img width="66%" src="https://raw.githubusercontent.com/ItzSelenux/ItzSelenux/main/propic/itzselenuxtext.webp">
+
 ### Hi, im ItzSelenux🦆
 
 ![Linux](https://img.shields.io/badge/-fc9f24?style=flat-square&logo=linux&logoColor=fff)
@@ -16,10 +18,7 @@
 ![CSS](https://img.shields.io/badge/-1572B6?style=flat-square&logo=css3&logoColor=fff)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itzselenux&theme=dark)
-
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itzselenux&theme=dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=itzselenux&theme=dark)
 
 ## WebPage
   <a href="https://itzselenux.github.io">itzselenux.github.io</a> is my folder webpage
