@@ -17,6 +17,8 @@
 ![HTML](https://img.shields.io/badge/-E34F26?style=flat-square&logo=html5&logoColor=fff)
 ![CSS](https://img.shields.io/badge/-1572B6?style=flat-square&logo=css3&logoColor=fff)
 
+![GitHub Stats](https://gh-readme-profile.vercel.app/api?username=ItzSelenux&hide_stroke=true&hide_border=true&hide=forks,prs,issues&bg_color=1a1a1a&title_color=91a666&text_color=a6a6a6&icon_color=91a666)
+
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=itzselenux&theme=dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=itzselenux&theme=dark)
 
