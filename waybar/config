@@ -1,21 +1,41 @@
 {
 	"layer": "top",
 	"position": "left",
-	"height": 800,
+	"height": 0,
 	"width": 16,
 	"spacing": 0,
 	"modules-left": ["clock", "tray"],
-	"modules-right": ["wlr/taskbar"],
+	"modules-right": ["wlr/taskbar", "custom/launcher"],
 
 	"tray": {
 		"spacing": 10
 	},
 	"clock": {
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-		"format-alt": "{:%Y-%m-%d}",
-		"format": "{:%I\n%M}"
-	},
-	"wlr/taskbar": {
+		"tooltip-format": "<big>{:%A %d}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%a\n%b %d}",
+		"format": "{:%I\n%M}",
+
+		"calendar": {
+				"mode-mon-col"  : 3,
+				"on-click-right": "mode",
+				"format": {
+					"today":      "<span color='#91A666'><b>{}</b></span>",
+					"weeks":      "{:%U}"
+				}
+			},
+			"actions": {
+				"on-click-right": "mode",
+			}
+
+			},
+
+"custom/launcher": {
+"format": "󰇥",
+"on-click": "sglauncher",
+},
+
+"wlr/taskbar": {
+	 "icon-theme": "ilustraciones-icon-theme",
 		"format": "{icon}",
 		"icon-size": 16,
 		"tooltip-format": "{title}",

@@ -2,27 +2,33 @@
 	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	min-width: 0px;
+
 }
 
 window#waybar {
 	background-color: #2a2a2a;
-	color: #ffffff;
+	color:#a6a6a6;
+
+}
+
+window > box {
+	margin-top: 5px;
+	margin-bottom: 5px;
+    background: #2a2a2a;
+    color: #a6a6a6;
 }
 
 button {
 	border: none;
 	border-radius: 0;
+
 }
 
 #workspaces button {
 	padding: 0 0 6px 0;
 	background-color: transparent;
-	color: #ffffff;
+	color: #a6a6a6;
 
-}
-
-#workspaces button:hover {
-	background: #1a1a1a;
 }
 
 #workspaces button.active {
@@ -37,13 +43,14 @@ button {
 #clock,
 #tray,
 #workspaces {
-	padding: 0 0px;
-	color: #ffffff;
+	padding: 0 0;
+	color: #a6a6a6;
 	min-width: 0px;
 }
 
 #clock {
-	background-color: #2a2a2a;
+	padding: 6px 0 0 0;
+	background-color: transparent;
 	min-width: 32px;
 	font-size: 16px;
 }
@@ -55,4 +62,9 @@ button {
 #tray > .needs-attention {
 	-gtk-icon-effect: highlight;
 	background-color: #eb4d4b;
+}
+
+#custom-launcher {
+
+	padding: 6px 1px 2px 0;
 }
